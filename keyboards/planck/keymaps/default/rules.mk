@@ -1,3 +1,11 @@
 ifeq ($(strip $(AUDIO_ENABLE)), yes)
     SRC += muse.c
 endif
+
+STENO_ENABLE = yes
+STENO_PROTOCOL = geminipr
+
+LINK_TIME_OPTIMIZATION_ENABLE = yes
+CONSOLE_ENABLE = no
+MOUSEKEY_ENABLE = no
+VIRTSER_ENABLE = yes
