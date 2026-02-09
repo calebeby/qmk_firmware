@@ -6,7 +6,7 @@ CONSOLE_ENABLE = no
 NKRO_ENABLE = no
 MIDI_ENABLE = no
 VIRTSER_ENABLE = yes
-EXTRAKEY_ENABLE = yes
-KEYBOARD_SHARED_EP = yes
+EXTRAKEY_ENABLE = yes # Needed for media control keys (like vol up/down)
+KEYBOARD_SHARED_EP = yes # Make all base keyboard stuff use the same endpoint (otherwise ran out)
 
 LINK_TIME_OPTIMIZATION_ENABLE = yes
